@@ -1,17 +1,17 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { SplashScreen } from "../components/SplasScreen.jsx";
+import { SplashScreen } from "../components/SplasScreen";
 import { Home } from "../components/Home.jsx";
-import { Ajustecuenta } from "../components/Home/Ajustescuenta.jsx";
-import { Buscar } from "../components/Home/Buscar.jsx";
-import { Singing } from "../components/singin.jsx";
-import { Signun } from "../components/singun.jsx";
-import { Map } from "../components/Map.jsx";
-import { Perfil } from "../components/Extra/Perfil.jsx";
-import { Perfil_all } from "../components/Blocks/Perfil_all.jsx";
-import { Notificaciones } from "../components/Extra/Notificaciones/Notificaciones.jsx";
-import { Ajustesmap } from "../components/Home/Ajustesmap.jsx";
-import { Landing } from "../components/Landing/Landing.tsx";
-import { Newpost } from "../components/Extra/Newpost.jsx";
+import { Ajustecuenta } from "../components/Home/Ajustescuenta";
+import { Buscar } from "../components/Home/Buscar";
+import { Singing } from "../components/singin";
+import { Signun } from "../components/singun";
+import { Map } from "../components/Map";
+import { Perfil } from "../components/Extra/Perfil";
+import { Perfil_all } from "../components/Blocks/Perfil_all";
+import { Notificaciones } from "../components/Extra/Notificaciones/Notificaciones";
+import { Ajustesmap } from "../components/Home/Ajustesmap";
+import { Landing } from "../components/Landing/Landing";
+import { Newpost } from "../components/Extra/Newpost";
 
 
 export function App() {

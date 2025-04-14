@@ -25,7 +25,7 @@ import { Button } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
-import { Contenedorlogin } from "./singin.jsx";
+import { Contenedorlogin } from "./singin";
 
 // Define el esquema de validación con Yup
 const validationSchema = Yup.object({

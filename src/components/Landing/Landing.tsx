@@ -1,12 +1,12 @@
-import { BG, imgpruebas, Logo, pantalla1, pantalla2 } from "../const.ts";
-import Headerlanding from "./components/Headerlanding.tsx";
-import Footer from "./components/Footer.tsx";
+import { BG, imgpruebas, Logo, pantalla1, pantalla2 } from "../cons";
+import Headerlanding from "./components/Headerlanding";
+import Footer from "./components/Footer";
 import styled from "styled-components";
 import "animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { Img, Splasconten } from "../../assets/style/stylecomponets/styled.js";
+
 
 const Pantalla = styled.section`
   background: #fff;

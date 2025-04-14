@@ -1,4 +1,4 @@
-import { Logo } from "./const.ts";
+import { Logo } from "./const";
 import {
   Pantalla,
   Img,
