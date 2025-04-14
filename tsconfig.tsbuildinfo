@@ -1,0 +1,1 @@
+{"root":["./src/vite-env.d.ts","./src/components/const.ts","./src/main.tsx","./src/components/blocks/cards_all.tsx","./src/components/blocks/imagegallery.tsx","./src/components/landing/landing.tsx","./src/components/landing/components/footer.tsx","./src/components/landing/components/headerlanding.tsx"],"errors":true,"version":"5.8.3"}
