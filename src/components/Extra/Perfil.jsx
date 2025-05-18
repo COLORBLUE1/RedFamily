@@ -132,7 +132,7 @@ export const Perfil = () => {
       const email = userData.email;
       const usersRef = collection(firestore, "users");
       const q = query(usersRef, where("email", "==", email));
-      
+
       try {
         const querySnapshot = await getDocs(q);
         if (!querySnapshot.empty) {

@@ -15,6 +15,7 @@ export const Contenedormain = styled.div`
 
   &::-webkit-scrollbar {
   width:0;
+  }
 `;
 
 export const Datosrecientes = styled.p``;
@@ -97,8 +98,6 @@ export const Contenedormenumap = styled.div`
   div img{
     margin: auto;
   }
-}
-
 `;
 
 export const Contenido = styled.span`
@@ -200,7 +199,7 @@ export const TextField = styled.input`
     border-radius: 10px;
     padding: 20px;
 
-  &:focus-visible {|
+  &:focus-visible {
     outline: none;
   }
 

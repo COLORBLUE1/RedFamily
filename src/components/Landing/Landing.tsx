@@ -1,4 +1,4 @@
-import { BG, imgpruebas, Logo, pantalla1, pantalla2 } from "../cons";
+import { BG, imgpruebas, Logo, pantalla1, pantalla2 } from "../const";
 import Headerlanding from "./components/Headerlanding";
 import Footer from "./components/Footer";
 import styled from "styled-components";
@@ -29,7 +29,7 @@ const ContenidoInicial = styled.section`
   h1 {
     margin: auto;
     margin-bottom: 0;
-    font-width: 800;
+    font-weight: 800;
     font-size: clamp(1.875rem, -3.482rem + 14.286vw, 9.375rem);
     color: #000;
   }
@@ -38,7 +38,7 @@ const ContenidoInicial = styled.section`
     color: #363636;
     margin-top: 0;
     font-size: 20px;
-    font-width: 600;
+    font-weight: 600;
     font-family: Roboto;
   }
 
@@ -67,7 +67,7 @@ const Contenidodos = styled.section`
     }
     div {
       display: block;
-      items-aling: center;
+      align-items: center;
       width: 40%;
       margin: auto;
       h3 {
@@ -125,7 +125,7 @@ const Contenidotres = styled.section`
     }
     div {
       display: block;
-      items-aling: center;
+      align-items: center;
       width: 40%;
       margin: auto;
       h3 {
@@ -155,7 +155,7 @@ const Contenidocuarto = styled.section`
   div {
     margin: 30px;
     display: flex;
-    items-aling: center;
+    align-items: center;
     figure {
       display: grid;
       gap: 20px;
@@ -177,7 +177,7 @@ const Contenidocuarto = styled.section`
     }
     div {
       display: flex;
-      items-aling: center;
+      align-items: center;
       width: 40%;
       margin: auto;
       p {
@@ -204,12 +204,8 @@ const Contenidoadicional = styled.section`
         width: 400px;
         height: 400px;
       }
-    
-  }
-
-
-
 `;
+
 const Span = styled.span`
 width: 100%;
 margin:auto;
@@ -219,8 +215,8 @@ color:#898989;
 text-align:center;
 font-size: 30px;
 }
-  }
 `;
+
 export const Landing = () => {
   /* Inicializamos animaciones de scroll con AOS */
   useEffect(() => {

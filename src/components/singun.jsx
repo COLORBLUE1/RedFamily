@@ -1,4 +1,4 @@
-import { Logo } from "./const.ts";
+import { Logo } from "./const.js";
 import React from "react";
 import {
   facebookLogin,
@@ -25,7 +25,7 @@ import { Button } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
-import { Contenedorlogin } from "./singin";
+import { Contenedorlogin } from "./singin.jsx";
 
 // Define el esquema de validación con Yup
 const validationSchema = Yup.object({

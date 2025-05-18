@@ -1,6 +1,5 @@
 import Button from "@mui/material/Button";
 import styled from "styled-components";
-import { imgpruebas } from "../const.ts";
 
 export const Contenedorsroll = styled.div`
   overflow: hidden;
@@ -25,8 +24,8 @@ export const Opcionmain = styled.div`
     justify-content: center;
         background: #2e3562;
         border-radius: 50px;
-  }
 `;
+
 export const Cardslider = styled.div`
       display: grid !important;
       grid-template-columns: 65% 35%;
@@ -49,7 +48,6 @@ export const Cardslider = styled.div`
   width: 70px;
     height: 100%;
   }
-}
 `;
 
 export const Carrusel = () => {

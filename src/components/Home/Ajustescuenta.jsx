@@ -15,7 +15,7 @@ import {
   doc,
 } from "firebase/firestore";
 import { useEffect, useState } from "react";
-import { imgpruebas } from "../const.ts";
+import { imgpruebas } from "../const.js";
 import { logout } from "../../redux/slices/userSlice.js";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage"; // Importa las funciones adecuadas de Firebase Storage
 import Snackbar from "@mui/material/Snackbar"; // Importa Snackbar

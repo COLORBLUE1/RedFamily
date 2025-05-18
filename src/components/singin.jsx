@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { Logo } from "./const.ts";
+import { Logo } from "./const.js";
 import "../assets/style/css/Font.css";
 import { useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
