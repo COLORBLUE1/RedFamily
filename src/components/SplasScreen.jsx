@@ -1,4 +1,3 @@
-import { Logo } from "./const";
 import {
   Pantalla,
   Img,
@@ -6,6 +5,7 @@ import {
 } from "../assets/style/stylecomponets/styled.js";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { Logo } from "./const.js";
 
 //Logica
 
