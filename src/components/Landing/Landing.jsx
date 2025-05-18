@@ -1,4 +1,4 @@
-import { BG, imgpruebas, Logo, pantalla1, pantalla2 } from "../const";
+import { BG, Logo, pantalla1, pantalla2 } from "../const";
 import Headerlanding from "./components/Headerlanding";
 import Footer from "./components/Footer";
 import styled from "styled-components";
