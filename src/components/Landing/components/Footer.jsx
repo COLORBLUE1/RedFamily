@@ -36,8 +36,7 @@ const Contenedorfooter = styled.section `
 const Footer = () => {
     return (<Contenedorfooter>
       <div>
-        <h4>2024</h4>
-        <a href=" https://agileinnova.org/">@Angile Innova</a>
+        <a href=" https://agileinnova.org/">@Camilo-sol</a>
       </div>
 
       <div>

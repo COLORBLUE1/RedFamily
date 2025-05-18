@@ -218,7 +218,6 @@ font-size: 30px;
 `;
 
 export const Landing = () => {
-  /* Inicializamos animaciones de scroll con AOS */
   useEffect(() => {
     AOS.init();
   }, []);
@@ -300,20 +299,6 @@ export const Landing = () => {
         <h2>Desarrolladores</h2>
       </Span>
       <Contenidocuarto id="nosotros">
-        <div>
-          <div data-aos="fade-up"></div>
-          <figure data-aos="fade-right">
-            <a href="https://github.com/josephRodriri/" target="_blank">
-              <img
-                className="animate__animated animate__fadeInUp"
-                src="https://res.cloudinary.com/dehpi4905/image/upload/v1728453062/J-C/nju9cb6obzg6wujva5o0.png"
-                alt=""
-              />
-            </a>
-            <h3>Joseph Rodriguez</h3>
-            <p>Desarrollador web</p>
-          </figure>
-        </div>
         <div>
           <div data-aos="fade-up"></div>
           <figure data-aos="fade-right">
