@@ -46,13 +46,11 @@ width: 100%;
     color: white;
     }
  }
-  }
 `;
 
 const Contenedoruser = styled.div`
     display: grid;
     grid-template-columns: 50% 50%;
-  }
   div:nth-first-child{
   display: flex;
   }
@@ -69,14 +67,11 @@ const Contenedorall = styled.section`
   &::-webkit-scrollbar {
     width:0;
   }
-  }
-
 `;
+
 const Contenedorbotones = styled.div`
   gap: 20px;
     display: flex;
-  }
-
 `;
 
 const Follow = styled.div`
@@ -96,9 +91,7 @@ display: flex;
     color: gray;
     }
     }
-    }
-}
- `;
+`;
 
 const Avataruser = styled.div`
     display: flex;
@@ -116,7 +109,6 @@ const Avataruser = styled.div`
     color: gray;
     }
     }
-  }
 `;
 
 /* active 
@@ -193,4 +185,4 @@ const PerfilUsers = () => {
   );
 };
 
-export default Perfil;
+export default PerfilUsers;

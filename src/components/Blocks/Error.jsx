@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { imgpruebas } from "../const.ts";
+import { imgpruebas } from "../const.js";
 import styled from "styled-components";
 
 const Contenedorerror = styled.div`
